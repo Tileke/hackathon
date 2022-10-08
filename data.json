@@ -25,5 +25,14 @@
         "updated_at": "10/08/2022, 16:11%:01",
         "description": "new DESC",
         "is_active": "sold"
+    },
+    {
+        "id": 4,
+        "name": "testing ",
+        "price": 999.0,
+        "created_at": "08/10/2022, 16:18:39",
+        "updated_at": "08/10/2022, 16:18:39",
+        "description": "testing",
+        "is_active": "selling"
     }
 ]

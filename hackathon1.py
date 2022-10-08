@@ -70,7 +70,7 @@ def update_data(id):
                 data[index_data]['is_active'] = activity_status
             else:
                 return 'Incorrect activity status!'
-        data[index_data]['updated_at'] = datetime.datetime.now().strftime('%m/%d/%Y, %H:%M%:%S')
+        data[index_data]['updated_at'] = datetime.datetime.now().strftime('%m/%d/%Y, %H:%M:%S')
         json.dump(data, open(FILE_PATH, 'w'))
         return 'Update succesful!'
     return 'Item not found'    
